@@ -10,7 +10,7 @@ namespace TMFDailyEmailer.DataAccess
     public interface IUserRepository
     {
         /// <summary>
-        /// Retrieves a list of emails subscribed to the given email subscription.
+        /// Retrieves a list of users subscribed to the given email subscription.
         /// </summary>
         /// <param name="subscriptionId">The email subcription ID</param>
         /// <param name="includeInstrumentIds">If specified, the result set will only include users watching the given instruments.</param>
